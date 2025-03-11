@@ -1,0 +1,20 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:basico": "cls && cd Basico && npx tsc && node build/index.js",
+    "start:intermediario": "cls && cd Intermediario && ts-node-dev --respawn --transpile-only src/index.ts",
+    "start:avancado": "cls && cd Avancado && ts-node-dev --respawn --transpile-only src/index.ts",
+    "start:decorators": "cls && cd Decorators && ts-node-dev --respawn --transpile-only src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.8.2"
+  }
+}

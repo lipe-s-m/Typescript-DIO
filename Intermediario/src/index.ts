@@ -89,7 +89,7 @@ console.log(guerreiro1.status());
 guerreiro1.fala("ARRGGGH, SOU UM GUERREIRO!!!");
 
 console.log();
-let mago1 = new Mago("John", 11, 14, true, "Chuva de Meteoro");
+let mago1 = new Mago("John", 12, 15, true, "Chuva de Meteoro");
 mago1.nome;
 console.log(mago1.status());
 mago1.fala("Olá, sou um nobre mago!");
